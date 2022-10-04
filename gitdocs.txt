@@ -75,3 +75,25 @@ git checkout -b "newbranchname"
 git merge source destination
 
 
+
+git rebase "branchname" "branchname"
+
+git cherry-pick commitid
+
+
+
+git stash
+
+git stash pop
+
+git stash list
+
+
+git rebase -i "commitid"   --> You cannot squash without a previous commit --> pick and squash need to be set accordingly.
+
+
+
+
+
+
+
