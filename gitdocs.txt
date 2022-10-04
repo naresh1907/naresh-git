@@ -56,3 +56,10 @@ git pull -r
 git remote set-url origin "url"
 
 git remote set-url --push origin "url"
+
+
+git remote -v
+
+git remote add origin "url"
+
+git push -u origin master
