@@ -63,3 +63,15 @@ git remote -v
 git remote add origin "url"
 
 git push -u origin master
+
+
+
+git branch
+
+git checkout "branchname"
+
+git checkout -b "newbranchname"
+
+git merge source destination
+
+
