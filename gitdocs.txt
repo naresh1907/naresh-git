@@ -1,0 +1,58 @@
+Version control system - Tracked with Revisions
+
+Types of version control system:
+1.local 
+2.centralized  -> repository (server) -> -> workstation
+3.distributed - > repository (server) -> local repository -> -> workstations
+
+
+Version control system tools
+1.GIT - Distributed
+2.SVN
+3.Clearcase
+
+
+GIT
+Works on distributed system
+compatible with linux and windows
+work from anywhere over the internet
+faster
+trustable and reliable
+3 tier architecture
+
+
+git config --global user.name "name"
+git config --global user.mail "email"
+
+git init . (Initialises the current directory)
+
+git add . (Add to staging area)
+
+git commit (push to local repository)
+
+git rm --cached filename (to unstage)
+
+git log
+
+git log --oneline
+
+git reset commitid (Soft reset)
+
+git reset --hard commitid (hard reset)
+
+git revert commitid
+
+git revert commitid --no-commit (we need to commit it manually)
+
+
+
+
+git clone "remote rep url"
+
+git push origin master
+
+git pull -r 
+
+git remote set-url origin "url"
+
+git remote set-url --push origin "url"
